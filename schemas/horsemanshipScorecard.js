@@ -24,22 +24,19 @@ export default defineType({
             {
               name: 'tackAndEquipment',
               title: 'Tack And Equipment',
-              type: 'array',
-              of: [{type: 'block'}],
+              type: 'text',
               //   readOnly
             },
             {
               name: 'grooming',
               title: 'Grooming',
-              type: 'array',
-              of: [{type: 'block'}],
+              type: 'text',
               //   readOnly
             },
             {
               name: 'inHandPresentation',
               title: 'In-Hand Presentation',
-              type: 'array',
-              of: [{type: 'block'}],
+              type: 'text',
               //   readOnly
             },
             {
@@ -58,8 +55,7 @@ export default defineType({
             {
               name: 'trailEquitation',
               title: 'Trail Equitation',
-              type: 'array',
-              of: [{type: 'block'}],
+              type: 'text',
             },
             {
               name: 'score',
@@ -77,20 +73,17 @@ export default defineType({
             {
               name: 'trailSafetyAndCourtesy',
               title: 'Trail Safety And Courtesy',
-              type: 'array',
-              of: [{type: 'block'}],
+              type: 'text',
             },
             {
               name: 'stabling',
               title: 'Stabling',
-              type: 'array',
-              of: [{type: 'block'}],
+              type: 'text',
             },
             {
               name: 'trailCare',
               title: 'Trail Care',
-              type: 'array',
-              of: [{type: 'block'}],
+              type: 'text',
             },
             {
               name: 'score',
@@ -116,8 +109,7 @@ export default defineType({
         {
           name: 'penaltyPointExplanation',
           title: 'Penalty Point Explanation',
-          type: 'array',
-          of: [{type: 'block'}],
+          type: 'text',
           // readOnly
         },
         {
