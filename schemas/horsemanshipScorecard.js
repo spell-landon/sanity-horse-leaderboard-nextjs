@@ -37,8 +37,8 @@ export default defineType({
               type: 'text',
             },
             {
-              name: 'score',
-              title: 'Score',
+              name: 'generalScore',
+              title: 'General Score',
               type: 'string',
             },
           ],
@@ -54,8 +54,8 @@ export default defineType({
               type: 'text',
             },
             {
-              name: 'score',
-              title: 'Score',
+              name: 'formScore',
+              title: 'Form Score',
               type: 'string',
             },
           ],
@@ -81,8 +81,8 @@ export default defineType({
               type: 'text',
             },
             {
-              name: 'score',
-              title: 'Score',
+              name: 'trailScore',
+              title: 'Trail Score',
               type: 'string',
             },
           ],
@@ -93,7 +93,6 @@ export default defineType({
       name: 'scoreSubtotal',
       title: 'Score Subtotal',
       type: 'string',
-      // readOnly
     }),
     defineField({
       name: 'penalty',
@@ -104,16 +103,13 @@ export default defineType({
           name: 'penaltyPointExplanation',
           title: 'Penalty Point Explanation',
           type: 'text',
-          // readOnly
         },
         {
           name: 'penaltyPoints',
           title: 'Penalty Points',
           type: 'string',
-          // readOnly
         },
       ],
-      // readOnly
     }),
     defineField({
       name: 'overallScore',
