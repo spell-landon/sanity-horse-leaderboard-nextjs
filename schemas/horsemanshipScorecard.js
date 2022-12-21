@@ -25,25 +25,21 @@ export default defineType({
               name: 'tackAndEquipment',
               title: 'Tack And Equipment',
               type: 'text',
-              //   readOnly
             },
             {
               name: 'grooming',
               title: 'Grooming',
               type: 'text',
-              //   readOnly
             },
             {
               name: 'inHandPresentation',
               title: 'In-Hand Presentation',
               type: 'text',
-              //   readOnly
             },
             {
               name: 'score',
               title: 'Score',
               type: 'string',
-              //   readOnly
             },
           ],
         },
@@ -61,7 +57,6 @@ export default defineType({
               name: 'score',
               title: 'Score',
               type: 'string',
-              //   readOnly
             },
           ],
         },
@@ -89,7 +84,6 @@ export default defineType({
               name: 'score',
               title: 'Score',
               type: 'string',
-              //   readOnly
             },
           ],
         },

@@ -9,31 +9,26 @@ export default defineType({
       name: 'riderName',
       title: 'Rider Name',
       type: 'string',
-      //   readOnly
     }),
     defineField({
       name: 'riderNumber',
       title: 'Rider Number',
       type: 'string',
-      //   readOnly
     }),
     defineField({
       name: 'horseName',
       title: 'Horse Name',
       type: 'string',
-      //   readOnly
     }),
     defineField({
       name: 'horseBreed',
       title: 'Horse Breed',
       type: 'string',
-      //   readOnly
     }),
     defineField({
       name: 'horseAge',
       title: 'Horse Age',
       type: 'string',
-      //   readOnly
     }),
 
     defineField({
@@ -42,14 +37,13 @@ export default defineType({
       type: 'string',
       options: {
         list: [
-          {title: 'AA', value: 'aa'},
-          {title: 'A', value: 'a'},
-          {title: 'B1', value: 'b1'},
-          {title: 'B2', value: 'b2'},
+          {title: 'AA', value: 'AA'},
+          {title: 'A', value: 'A'},
+          {title: 'B1', value: 'B1'},
+          {title: 'B2', value: 'B2'},
         ],
         layout: 'dropdown',
       },
-      //   readOnly
     }),
     defineField({
       name: 'division',
@@ -57,13 +51,12 @@ export default defineType({
       type: 'string',
       options: {
         list: [
-          {title: 'Open', value: 'open'},
-          {title: 'CP', value: 'cp'},
-          {title: 'Nov', value: 'nov'},
+          {title: 'Open', value: 'Open'},
+          {title: 'CP', value: 'CP'},
+          {title: 'Nov', value: 'Nov'},
         ],
         layout: 'dropdown',
       },
-      //   readOnly
     }),
     defineField({
       name: 'class',
@@ -71,13 +64,12 @@ export default defineType({
       type: 'string',
       options: {
         list: [
-          {title: 'HWT', value: 'hwt'},
-          {title: 'LWT', value: 'lwt'},
-          {title: 'JR', value: 'jr'},
+          {title: 'HWT', value: 'HWT'},
+          {title: 'LWT', value: 'LWT'},
+          {title: 'JR', value: 'JR'},
         ],
         layout: 'dropdown',
       },
-      //   readOnly
     }),
     defineField({
       name: 'horsemanshipScorecard',

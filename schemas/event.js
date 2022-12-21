@@ -9,7 +9,6 @@ export default defineType({
       name: 'name',
       title: 'Name',
       type: 'string',
-      // readOnly
     }),
     defineField({
       name: 'slug',
@@ -19,25 +18,21 @@ export default defineType({
         source: 'name',
         maxLength: 96,
       },
-      // readOnly
     }),
     defineField({
       name: 'startDate',
       title: 'Start Date',
       type: 'date',
-      // readOnly
     }),
     defineField({
       name: 'endDate',
       title: 'End Date',
       type: 'date',
-      // readOnly
     }),
     defineField({
       name: 'region',
       title: 'Region',
       type: 'string',
-      // readOnly
     }),
     defineField({
       name: 'judges',
